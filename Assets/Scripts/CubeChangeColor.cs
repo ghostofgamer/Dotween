@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class CapsuleScale : MonoBehaviour
+public class CubeChangeColor : MonoBehaviour
 {
     private void Start()
     {
-        transform.DOScale(new Vector3(3, 3, 3), 3f).SetLoops(-1,LoopType.Yoyo); 
+        GetComponent<Renderer>().material.DOColor(Color.red, 3f).SetLoops(-1,LoopType.Yoyo);
     }
 }
