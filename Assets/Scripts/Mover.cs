@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class SphereMove : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private Transform _path;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class CubeRotate : MonoBehaviour
+public class RotateChanger : MonoBehaviour
 {
     private void Start()
     {

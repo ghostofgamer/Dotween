@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class CubeChangeColor : MonoBehaviour
+public class ColorChanger : MonoBehaviour
 {
     private void Start()
     {

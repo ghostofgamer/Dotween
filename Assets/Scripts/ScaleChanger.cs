@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class CapsuleScale : MonoBehaviour
+public class ScaleChanger : MonoBehaviour
 {
     private void Start()
     {
